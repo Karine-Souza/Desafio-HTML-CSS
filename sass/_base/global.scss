@@ -1,0 +1,12 @@
+html,
+body {
+  margin-top: 10%;
+  height: auto;
+  font-family: Montserrat, sans-serif;
+  font-size: $default-font-size;
+  font-display: fallback;
+  background: $color_darkgray2;
+  color: $color_white;
+  scroll-behavior: smooth;
+}
+

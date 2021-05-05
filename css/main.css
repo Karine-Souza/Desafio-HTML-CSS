@@ -1,4 +1,147 @@
-  
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  margin-top: 10%;
+  height: auto;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-display: fallback;
+  background: #373737;
+  color: whitesmoke;
+  scroll-behavior: smooth;
+}
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  appearance: none;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  border-width: 0px;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300%;
+  margin-top: 300px;
+  background-color: #9f83c9;
+  color: #cecece;
+  font-size: 2rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .banner {
+    display: flex;
+  }
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  display: flexbox;
+  background: #9f83c9;
+  color: #010101;
+  text-align: left;
+}
+.header__logo {
+  margin-top: 15px;
+  opacity: 0.9;
+  size: 3rem;
+  display: block;
+}
+.header__text {
+  margin-bottom: 15px;
+  padding-left: 1rem;
+  opacity: 0.68;
+}
+@media (min-width: 768px) {
+  .header__logo {
+    padding-left: 46%;
+  }
+  .header__text {
+    text-align: center;
+  }
+}
+
+.top-nav {
+  background-color: whitesmoke;
+  text-align: center;
+}
+.top-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.top-nav a {
+  color: #010101;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+}
+.top-nav a:hover {
+  background-color: #9f83c9;
+  color: #FFD02E;
+}
+@media (min-width: 768px) {
+  .top-nav {
+    flex: right;
+  }
+  .top-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  .top-nav li {
+    display: inline-block;
+  }
+}
+
+.footer {
+  position: absolute;
+  top: 774px;
+  width: 100%;
+  height: 25%;
+  display: flexbox;
+  background: #373737 0% 0% no-repeat padding-box;
+  opacity: 0.68;
+  color: #ADADAD;
+}
+.footer__logo {
+  padding-left: 2rem;
+}
+.footer__text {
+  font-size: 1rem;
+  text-align: center;
+}
+.footer p {
+  font-size: 0.7rem;
+  padding: 2rem;
+  text-align: center;
+  opacity: 0.52;
+}
+@media (min-width: 768px) {
+  .footer {
+    flex: right;
+  }
+  .footer ul {
+    margin: 0;
+    padding: 0;
+  }
+  .footer li {
+    display: inline-block;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

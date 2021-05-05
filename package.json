@@ -3,6 +3,6 @@
         "sass": "sass --watch ./sass/main.scss ./css/main.css"
     },
     "dependencies": {
-        "sass": "^1.32.11"
+        "sass": "^1.32.12"
     }
 }

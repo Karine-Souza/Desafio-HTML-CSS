@@ -10,3 +10,42 @@ body {
   scroll-behavior: smooth;
 }
 
+p {
+  margin: 0 0 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color_white;
+  font-weight: normal;
+  margin: 1rem 0 1rem 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+

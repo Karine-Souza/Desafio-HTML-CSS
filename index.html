@@ -16,12 +16,12 @@
   <body>
 
     <header class="header">
-      <div class="header__container"></div>
+      <div class="header-container"> 
         <img src="images/Valtech_logo01.png" alt="logotipo Valtech" class="header__logo">
         <div class="header__text">desafio <b>front-end</b></div>
       </div>
         <nav class="top-nav">
-        <div class="top-nav__container">
+        <div class="top-nav-container">
         <ul>
           <li><a href="#">início</a></li>
           <li><a href="#">sobre</a></li>
@@ -32,25 +32,31 @@
         </nav>
     </header> 
 
-      <section class="slideshow">
-        <div class="slideshow__container">
-          <img src="images/banner03.jpg" width="320" height="205" />
-      </div>
-        <p></p>
+      <section class="slide">
+        <div class="slide-container">
+          <img src="images/slide01.jpg" class="slide__img" />
+       
+          <p>Nullam enim nunc, sagittis eget tortor eget, rhoncus facilisis erat. Pellentesque efficitur tellus suscipit lorem placerat, a fring</p>
+       </div>
       </section>
-      
-        
-      <section class="cards">        
-          <h1>Why *assunto aqui*?</h1>
+              
+      <section class="cards">
+        <div class="cards-container">
+          <div class="cards-container__titulo">       
+          <h1"><b>Why</b></h1>
+          <h2>*assunto aqui*?</h2>
+          </div>
       
           <p>[Introdução] Nullam enim nunc, sagittis eget tortor eget, rhoncus 
                 facilisis erat. Pellentesque nunca"</p>
-        <div class="cards__container"></div>
+
+          <div class="cards-container__img"></div> 
+
         </div>
       </section>
         
       <section class="banner">
-        <div class="banner__container">
+        <div class="banner-container">
           <span>share_</span>
           <span>dare_</span>
           <span>care_</span>
@@ -58,12 +64,11 @@
       </section>
       
       <footer class="footer">
-        <ul>
-          <li><img src="images/Valtech_logo02.png" class="footer__logo" alt="logotipo Valtech"></li>
-          <li><a class="footer__text">desafio <b>front-end</b></a></li>
-        </ul>
-
-        <p>efficitur nisl, vel congue purus condimentum vel. Integer maximus dictum tincidunt. Phasellus vehicula faucibus justo nec tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ex velit, dictum at tellus non, dictum feugiat e</p>
+        <div class="footter-container">
+          <img src="images/Valtech_logo02.png" alt="logotipo Valtech" class="footer__logo">
+          <div class="footer__text">desafio <b>front-end</b></div>
+        
+          <p>efficitur nisl, vel congue purus condimentum vel. Integer maximus dictum tincidunt. Phasellus vehicula faucibus justo nec tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ex velit, dictum at tellus non, dictum feugiat e</p>
         </div>
       </footer>
   </body>
